@@ -7,7 +7,7 @@ sudo apt-get install -y nano curl python-software-properties
 sudo add-apt-repository -y ppa:ondrej/php5
 sudo apt-get update
 
-sudo apt-get install -y php5 apache2 libapache2-mod-php5 php5-curl php5-gd php5-mcrypt php5-readline mysql-server-5.5 php5-mysql git-core php5-xdebug
+sudo apt-get install -y php5 apache2 libapache2-mod-php5 php5-curl php5-gd php5-mcrypt php5-readline mysql-server-5.5 php5-mysql git-core php5-xdebug php5-memcached memcached php-pear build-essential
 
 cat << EOF | sudo tee -a /etc/php5/mods-available/xdebug.ini
 xdebug.scream=1
